@@ -102,7 +102,7 @@ function HeroSection() {
         >
           <motion.button
             onClick={scrollToAbout}
-            className="group flex items-center space-x-3 bg-gradient-to-r from-light-primary to-light-accent dark:from-dark-primary dark:to-dark-accent text-white px-8 py-4 rounded-full font-semibold text-lg hover:scale-105 transition-all duration-300 shadow-lg box-glow dark:box-glow-dark"
+            className="group flex items-center space-x-3 elite-gradient dark:elite-gradient-dark text-white px-8 py-4 rounded-full font-semibold text-lg hover:scale-105 transition-all duration-300 shadow-elite box-glow dark:box-glow-dark"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
