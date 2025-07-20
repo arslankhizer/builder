@@ -147,9 +147,10 @@ function HeroSection() {
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-light-bg dark:bg-dark-bg transition-colors duration-300">
+        <div className="min-h-screen bg-light-bg dark:bg-dark-bg transition-colors duration-300">
       <HeroSection />
       <About />
+      <Skills />
       <Portfolio />
       <Reviews />
       <Contact />
