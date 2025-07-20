@@ -107,7 +107,7 @@ export function Footer() {
             >
               <div className="flex items-center space-x-3 text-light-text/70 dark:text-dark-text/70">
                 <Mail className="w-4 h-4" />
-                <span>hello@arslaneditz.com</span>
+                                <span>arslaneditz@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3 text-light-text/70 dark:text-dark-text/70">
                 <Phone className="w-4 h-4" />
