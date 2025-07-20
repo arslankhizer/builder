@@ -210,7 +210,7 @@ export function Footer() {
             {/* Copyright */}
             <div className="text-light-text/60 dark:text-dark-text/60 text-center md:text-left">
               <p className="flex items-center justify-center md:justify-start space-x-2">
-                <span>© 2025 ARSLAN EDIT'Z. Crafted with precision</span>
+                                <span>© 2025 ARSLAN EDIT'Z – Crafted with Precision</span>
                 <Heart className="w-4 h-4 text-red-500 animate-pulse" />
               </p>
             </div>
