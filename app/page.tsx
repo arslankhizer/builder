@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { About } from './components/About'
+import { Skills } from './components/Skills'
 import { Portfolio } from './components/Portfolio'
 import { Reviews } from './components/Reviews'
 import { Contact } from './components/Contact'
