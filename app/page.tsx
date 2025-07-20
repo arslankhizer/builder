@@ -1,7 +1,6 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Navigation } from './components/Navigation'
 import { About } from './components/About'
 import { Portfolio } from './components/Portfolio'
 import { Reviews } from './components/Reviews'
