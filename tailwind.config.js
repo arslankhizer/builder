@@ -8,18 +8,21 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
-      colors: {
+            colors: {
         light: {
-          bg: '#F9F9F9',
-          text: '#1A1A1A',
-          primary: '#7F00FF',
-          accent: '#00FFFF',
+          bg: '#F7F8FA',
+          text: '#111111',
+          primary: '#8A2BE2',
+          accent: '#7F00FF',
+          secondary: '#00FFFF',
         },
         dark: {
-          bg: '#0D0D0D',
+          bg: '#0A0A0A',
           text: '#F5F5F5',
-          primary: '#8A2BE2',
-          accent: '#00BFFF',
+          primary: '#00BFFF',
+          accent: '#8A2BE2',
+          secondary: '#7F00FF',
+          card: 'rgba(255, 255, 255, 0.05)',
         }
       },
       fontFamily: {
