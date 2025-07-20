@@ -81,7 +81,7 @@ function HeroSection() {
           transition={{ duration: 1, delay: 1 }}
           className="text-2xl md:text-3xl text-light-text/80 dark:text-dark-text/80 font-light leading-relaxed"
         >
-          Professional Video Editor & Motion Designer
+          Crafting Stories Frame by Frame
         </motion.p>
 
         <motion.p
