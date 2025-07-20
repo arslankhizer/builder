@@ -21,10 +21,13 @@ function HeroSection() {
       ref={ref}
       className="min-h-screen flex items-center justify-center relative overflow-hidden bg-light-bg dark:bg-dark-bg"
     >
-      {/* Background Video Effect */}
-      <div className="absolute inset-0 opacity-30">
-        <div className="w-full h-full bg-gradient-to-br from-light-primary/20 via-transparent to-light-accent/20 dark:from-dark-primary/20 dark:to-dark-accent/20" />
-        <div className="absolute inset-0 vhs-static bg-black/5" />
+            {/* Elite Background */}
+      <div className="absolute inset-0 opacity-60">
+        <div className="w-full h-full bg-gradient-to-br from-light-primary/10 via-transparent to-light-accent/10 dark:from-dark-primary/10 dark:to-dark-accent/10" />
+        <div className="absolute inset-0">
+          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-light-primary/20 dark:bg-dark-primary/20 rounded-full blur-3xl animate-pulse" />
+          <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-light-secondary/20 dark:bg-dark-secondary/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }} />
+        </div>
       </div>
 
       {/* Floating Elements */}
