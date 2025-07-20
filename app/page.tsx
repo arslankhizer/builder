@@ -79,7 +79,7 @@ function HeroSection() {
           initial={{ opacity: 0, y: 50 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 1, delay: 1 }}
-          className="text-2xl md:text-3xl text-light-text/80 dark:text-dark-text/80 font-light leading-relaxed"
+          className="text-3xl md:text-4xl lg:text-5xl font-elite font-light leading-tight gradient-text dark:gradient-text-dark"
         >
           Crafting Stories Frame by Frame
         </motion.p>
