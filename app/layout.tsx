@@ -1,5 +1,6 @@
 import './globals.css'
 import { ThemeProvider } from './components/ThemeProvider'
+import { Navigation } from './components/Navigation'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
@@ -17,8 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.variable}>
-      <body className={`font-cinematic antialiased`}>
+            <body className={`font-cinematic antialiased`}>
         <ThemeProvider>
+          <Navigation />
           {children}
         </ThemeProvider>
       </body>
