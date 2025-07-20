@@ -25,14 +25,18 @@ module.exports = {
           card: 'rgba(255, 255, 255, 0.05)',
         }
       },
-      fontFamily: {
-        cinematic: ['Inter', 'system-ui', 'sans-serif'],
+            fontFamily: {
+        cinematic: ['Inter', 'SF Pro Display', '-apple-system', 'system-ui', 'sans-serif'],
+        elite: ['Inter', 'SF Pro Display', 'Helvetica Neue', 'sans-serif'],
       },
       animation: {
         'fade-in': 'fadeIn 0.6s ease-in-out',
         'slide-up': 'slideUp 0.8s ease-out',
         'glow': 'glow 2s ease-in-out infinite alternate',
         'float': 'float 3s ease-in-out infinite',
+        'scale-in': 'scaleIn 0.5s ease-out',
+        'shimmer': 'shimmer 2s ease-in-out infinite',
+        'gradient-shift': 'gradientShift 3s ease-in-out infinite',
       },
       keyframes: {
         fadeIn: {
