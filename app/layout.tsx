@@ -16,8 +16,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  return (
-    <html lang="en" className={inter.variable}>
+    return (
+    <html lang="en" className={inter.variable} suppressHydrationWarning>
             <body className={`font-cinematic antialiased`}>
         <ThemeProvider>
           <Navigation />
