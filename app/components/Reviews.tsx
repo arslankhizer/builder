@@ -10,7 +10,7 @@ const reviews = [
     id: 1,
     name: 'Sarah Johnson',
     company: 'TechStart Inc.',
-    avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=80&h=80&fit=crop&crop=face',
+    avatar: 'https://randomuser.me/api/portraits/women/1.jpg',
     rating: 5,
     text: 'Arslan transformed our product launch video into a cinematic masterpiece. The attention to detail and creative vision exceeded all expectations.',
     logo: '🚀'
@@ -19,7 +19,7 @@ const reviews = [
     id: 2,
     name: 'Michael Chen',
     company: 'Creative Studios',
-    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face',
+    avatar: 'https://randomuser.me/api/portraits/men/2.jpg',
     rating: 5,
     text: 'Working with Arslan was incredible. He understood our brand vision and delivered content that perfectly captured our message with stunning visual effects.',
     logo: '🎨'
@@ -28,7 +28,7 @@ const reviews = [
     id: 3,
     name: 'Emily Rodriguez',
     company: 'YouTube Creator',
-    avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face',
+    avatar: 'https://randomuser.me/api/portraits/women/3.jpg',
     rating: 5,
     text: 'My channel growth exploded after Arslan started editing my videos. The quality and engagement rates improved dramatically. Highly recommended!',
     logo: '📺'
@@ -37,7 +37,7 @@ const reviews = [
     id: 4,
     name: 'David Kim',
     company: 'Brand Agency',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face',
+    avatar: 'https://randomuser.me/api/portraits/men/4.jpg',
     rating: 5,
     text: 'Professional, creative, and always on time. Arslan brings a unique cinematic style that sets our content apart from the competition.',
     logo: '✨'
@@ -46,7 +46,7 @@ const reviews = [
     id: 5,
     name: 'Lisa Thompson',
     company: 'E-commerce Brand',
-    avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=80&h=80&fit=crop&crop=face',
+    avatar: 'https://randomuser.me/api/portraits/women/5.jpg',
     rating: 5,
     text: 'Our product videos became conversion machines after Arslan\'s magic touch. The ROI on video marketing increased by 300%.',
     logo: '💎'
