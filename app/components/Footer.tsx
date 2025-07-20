@@ -30,7 +30,7 @@ export function Footer() {
     {
       icon: Mail,
       name: 'Email',
-      url: 'mailto:hello@arslaneditz.com',
+            url: 'mailto:arslaneditz@gmail.com',
       color: 'hover:text-green-500'
     }
   ]
