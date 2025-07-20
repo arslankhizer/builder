@@ -295,11 +295,11 @@ export function Contact() {
               <div className="w-full h-full bg-gradient-to-br from-light-primary/20 via-light-accent/10 to-light-primary/20 dark:from-dark-primary/20 dark:via-dark-accent/10 dark:to-dark-primary/20 rounded-lg flex items-center justify-center border border-light-text/10 dark:border-dark-text/10">
                 <div className="text-center space-y-2">
                   <MapPin className="w-12 h-12 mx-auto text-light-primary dark:text-dark-primary" />
-                  <p className="text-light-text/70 dark:text-dark-text/70 font-medium">
-                    Interactive Map
+                                    <p className="text-light-text/70 dark:text-dark-text/70 font-medium">
+                    Google Map
                   </p>
                   <p className="text-light-text/50 dark:text-dark-text/50 text-sm">
-                    Los Angeles, CA
+                    Lahore, Pakistan
                   </p>
                 </div>
               </div>
