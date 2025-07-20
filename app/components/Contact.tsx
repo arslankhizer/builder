@@ -38,23 +38,23 @@ export function Contact() {
     })
   }
 
-  const contactInfo = [
+    const contactInfo = [
     {
       icon: Mail,
       label: 'Email',
-      value: 'hello@arslaneditz.com',
-      href: 'mailto:hello@arslaneditz.com'
+      value: 'arslaneditz@gmail.com',
+      href: 'mailto:arslaneditz@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+92-XXX-XXXXXXX',
+      href: 'tel:+92XXXXXXXXX'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Los Angeles, CA',
+      value: 'Lahore, Pakistan',
       href: '#'
     }
   ]
