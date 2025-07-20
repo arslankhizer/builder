@@ -128,7 +128,7 @@ export function About() {
                     <Play className="w-8 h-8 text-light-primary dark:text-dark-primary ml-1" />
                   </div>
                   <p className="text-light-text/70 dark:text-dark-text/70 font-medium">
-                    Video Reel Coming Soon
+                                        Demo Video Reel
                   </p>
                 </motion.div>
               </div>
