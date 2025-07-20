@@ -35,8 +35,9 @@ export function Footer() {
     }
   ]
 
-  const quickLinks = [
+    const quickLinks = [
     { name: 'About', href: '#about' },
+    { name: 'Skills', href: '#skills' },
     { name: 'Portfolio', href: '#portfolio' },
     { name: 'Reviews', href: '#reviews' },
     { name: 'Contact', href: '#contact' }
