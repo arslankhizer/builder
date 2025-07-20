@@ -3,9 +3,26 @@
 import { useTheme } from './ThemeProvider'
 import { motion } from 'framer-motion'
 import { Sun, Moon } from 'lucide-react'
+import { useState, useEffect } from 'react'
 
 export function ThemeToggle() {
-  const { theme, toggleTheme } = useTheme()
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  // Don't render anything during SSR to avoid hydration issues
+  if (!mounted) {
+    return (
+      <div className="p-3 rounded-full glass dark:glass-dark">
+        <Moon className="w-5 h-5 text-dark-primary" />
+      </div>
+    )
+  }
+
+  try {
+    const { theme, toggleTheme } = useTheme()
 
   return (
     <motion.button
