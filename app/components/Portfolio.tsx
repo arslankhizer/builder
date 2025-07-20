@@ -56,7 +56,7 @@ const portfolioItems = [
   },
 ]
 
-const categories = ['All', 'YouTube', 'Commercial', 'Cinematic']
+const categories = ['All', 'YouTube', 'Ads', 'Reels', 'Cinematic']
 
 export function Portfolio() {
   const [selectedCategory, setSelectedCategory] = useState('All')
