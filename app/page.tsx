@@ -139,12 +139,7 @@ function HeroSection() {
         </motion.div>
       </div>
 
-      {/* Cinematic Frame Border */}
-      <div className="absolute inset-0 border-8 border-light-text/5 dark:border-dark-text/5 pointer-events-none" />
-      <div className="absolute top-8 left-8 w-16 h-16 border-l-4 border-t-4 border-light-primary dark:border-dark-primary" />
-      <div className="absolute top-8 right-8 w-16 h-16 border-r-4 border-t-4 border-light-primary dark:border-dark-primary" />
-      <div className="absolute bottom-8 left-8 w-16 h-16 border-l-4 border-b-4 border-light-primary dark:border-dark-primary" />
-      <div className="absolute bottom-8 right-8 w-16 h-16 border-r-4 border-b-4 border-light-primary dark:border-dark-primary" />
+      
     </section>
   )
 }
