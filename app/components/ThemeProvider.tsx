@@ -26,12 +26,12 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     }
   }, [])
 
-  useEffect(() => {
+    useEffect(() => {
     if (mounted) {
-      const root = window.document.documentElement
-      root.classList.remove('light', 'dark')
-      root.classList.add(theme)
       localStorage.setItem('theme', theme)
+      // Apply theme class to document for global styles
+      document.documentElement.classList.remove('light', 'dark')
+      document.documentElement.classList.add(theme)
     }
   }, [theme, mounted])
 
