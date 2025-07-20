@@ -16,10 +16,10 @@ function HeroSection() {
     document.querySelector('#about')?.scrollIntoView({ behavior: 'smooth' })
   }
 
-  return (
+    return (
     <section
       ref={ref}
-      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-light-bg via-light-primary/5 to-light-accent/5 dark:from-dark-bg dark:via-dark-primary/5 dark:to-dark-accent/5"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-light-bg dark:bg-dark-bg"
     >
       {/* Background Video Effect */}
       <div className="absolute inset-0 opacity-30">
