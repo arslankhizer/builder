@@ -59,7 +59,7 @@ export function Navigation() {
               <motion.button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
-                className="text-light-text dark:text-dark-text hover:text-light-primary dark:hover:text-dark-primary transition-colors duration-200 font-medium"
+                          className="text-light-text dark:text-dark-text hover:text-light-primary dark:hover:text-dark-primary transition-colors duration-300 font-medium"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
