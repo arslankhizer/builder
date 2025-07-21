@@ -26,11 +26,30 @@ export function Navigation() {
   }, [])
 
   const scrollToSection = (href: string) => {
-    const element = document.querySelector(href)
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
-      setIsOpen(false)
-    }
+    // Close mobile menu immediately for better UX
+    setIsOpen(false)
+
+    // Add a small delay to ensure menu animation doesn't interfere with scroll
+    setTimeout(() => {
+      const element = document.querySelector(href)
+      if (element) {
+        // Get the navigation height to offset the scroll position
+        const navHeight = 80 // Height of the fixed navigation
+        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset
+        const offsetPosition = elementPosition - navHeight
+
+        // Use both scrollIntoView and manual scrollTo for better mobile compatibility
+        try {
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          })
+        } catch (error) {
+          // Fallback for older browsers
+          element.scrollIntoView({ behavior: 'smooth' })
+        }
+      }
+    }, 100) // Small delay to let menu close animation start
   }
 
   return (
