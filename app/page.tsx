@@ -121,23 +121,7 @@ function HeroSection() {
           </motion.button>
         </motion.div>
 
-        {/* Scroll Indicator */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={inView ? { opacity: 1 } : {}}
-          transition={{ duration: 1, delay: 2 }}
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-        >
-          <motion.button
-            onClick={scrollToAbout}
-            className="flex flex-col items-center space-y-2 text-light-text/50 dark:text-dark-text/50 hover:text-light-primary dark:hover:text-dark-primary transition-colors"
-            animate={{ y: [0, 10, 0] }}
-            transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-          >
-            <span className="text-sm font-medium">Scroll Down</span>
-            <ChevronDown className="w-6 h-6" />
-          </motion.button>
-        </motion.div>
+
       </div>
 
       
