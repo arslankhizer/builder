@@ -69,27 +69,95 @@ html {
       inset -20px -20px 60px #0c0c0c;
   }
   
-  /* Elite Gradients */
-  .elite-gradient {
-    background: linear-gradient(135deg, #8A2BE2 0%, #7F00FF 50%, #00FFFF 100%);
+  /* Cinematic Gradients */
+  .cinematic-gradient {
+    background: linear-gradient(135deg, #7F00FF 0%, #00FFFF 100%);
   }
-  
-  .elite-gradient-dark {
-    background: linear-gradient(135deg, #00BFFF 0%, #8A2BE2 50%, #7F00FF 100%);
+
+  .cinematic-gradient-dark {
+    background: linear-gradient(135deg, #8A2BE2 0%, #00BFFF 100%);
   }
-  
+
   .gradient-text {
-    background: linear-gradient(135deg, #8A2BE2 0%, #7F00FF 50%, #00FFFF 100%);
+    background: linear-gradient(135deg, #7F00FF 0%, #00FFFF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
-  
+
   .gradient-text-dark {
-    background: linear-gradient(135deg, #00BFFF 0%, #8A2BE2 50%, #7F00FF 100%);
+    background: linear-gradient(135deg, #8A2BE2 0%, #00BFFF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+  }
+
+  /* Cinematic Effects */
+  .cinematic-frame {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cinematic-frame::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:
+      linear-gradient(90deg, transparent 0%, rgba(127, 0, 255, 0.1) 50%, transparent 100%),
+      linear-gradient(0deg, transparent 0%, rgba(0, 255, 255, 0.1) 50%, transparent 100%);
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .glitch-effect {
+    position: relative;
+  }
+
+  .glitch-effect::before,
+  .glitch-effect::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .glitch-effect::before {
+    animation: glitch 0.3s infinite;
+    color: #7F00FF;
+    z-index: -1;
+  }
+
+  .glitch-effect::after {
+    animation: glitch 0.3s infinite reverse;
+    color: #00FFFF;
+    z-index: -2;
+  }
+
+  .film-grain {
+    position: relative;
+  }
+
+  .film-grain::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:
+      radial-gradient(circle, transparent 20%, rgba(255,255,255,0.3) 20.1%, rgba(255,255,255,0.3) 80%, transparent 80.1%),
+      radial-gradient(circle, transparent 20%, rgba(0,0,0,0.3) 20.1%, rgba(0,0,0,0.3) 80%, transparent 80.1%);
+    background-size: 3px 3px;
+    background-position: 0 0, 1.5px 1.5px;
+    animation: filmGrain 0.2s infinite;
+    pointer-events: none;
+    z-index: 1;
   }
   
   /* Elite Glows */
