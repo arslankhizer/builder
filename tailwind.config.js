@@ -40,6 +40,10 @@ module.exports = {
         'scale-in': 'scaleIn 0.5s ease-out',
         'shimmer': 'shimmer 2s ease-in-out infinite',
         'gradient-shift': 'gradientShift 3s ease-in-out infinite',
+        'glitch': 'glitch 0.6s ease-in-out infinite',
+        'film-grain': 'filmGrain 0.1s infinite',
+        'reveal': 'reveal 0.8s ease-out',
+        'cinematic-zoom': 'cinematicZoom 0.5s ease-out',
       },
             keyframes: {
         fadeIn: {
