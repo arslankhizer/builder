@@ -39,7 +39,7 @@ export function Navigation() {
       animate={{ y: 0 }}
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         scrolled
-          ? 'bg-light-bg/80 dark:bg-dark-bg/80 backdrop-blur-md border-b border-light-text/10 dark:border-dark-text/10'
+          ? 'glass dark:glass-dark backdrop-blur-xl border-b border-light-border dark:border-dark-border'
           : 'bg-transparent'
       }`}
     >
