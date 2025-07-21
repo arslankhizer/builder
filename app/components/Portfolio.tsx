@@ -109,8 +109,8 @@ export function Portfolio() {
               onClick={() => setSelectedCategory(category)}
               className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${
                 selectedCategory === category
-                  ? 'bg-gradient-to-r from-light-primary to-light-accent dark:from-dark-primary dark:to-dark-accent text-white shadow-lg box-glow dark:box-glow-dark'
-                  : 'glass dark:glass-dark text-light-text dark:text-dark-text hover:text-light-primary dark:hover:text-dark-primary'
+                  ? 'cinematic-gradient dark:cinematic-gradient-dark text-white shadow-lg box-glow dark:box-glow-dark'
+                  : 'glass dark:glass-dark text-light-text dark:text-dark-text hover:text-light-primary dark:hover:text-dark-primary border border-light-border dark:border-dark-border'
               }`}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
