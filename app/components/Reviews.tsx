@@ -154,7 +154,7 @@ export function Reviews() {
                 transition={{ duration: 0.5, ease: 'easeInOut' }}
                 className="absolute inset-0"
               >
-                <div className="glass dark:glass-dark rounded-2xl p-8 lg:p-12 h-full flex flex-col justify-center relative box-glow dark:box-glow-dark">
+                <div className="glass dark:glass-dark rounded-2xl p-8 lg:p-12 h-full flex flex-col justify-center relative box-glow dark:box-glow-dark border border-light-border dark:border-dark-border">
                   {/* Quote Icon */}
                   <Quote className="w-12 h-12 text-light-primary dark:text-dark-primary opacity-50 mb-6" />
                   
