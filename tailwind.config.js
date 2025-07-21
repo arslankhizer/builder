@@ -10,19 +10,22 @@ module.exports = {
     extend: {
             colors: {
         light: {
-          bg: '#F7F8FA',
-          text: '#111111',
-          primary: '#8A2BE2',
-          accent: '#7F00FF',
+          bg: '#F5F7FA',
+          text: '#1A1A1A',
+          primary: '#7F00FF',
           secondary: '#00FFFF',
+          accent: '#8A2BE2',
+          card: 'rgba(255, 255, 255, 0.8)',
+          border: 'rgba(127, 0, 255, 0.2)',
         },
         dark: {
-          bg: '#0A0A0A',
+          bg: '#0D0D0D',
           text: '#F5F5F5',
-          primary: '#00BFFF',
-          accent: '#8A2BE2',
-          secondary: '#7F00FF',
+          primary: '#8A2BE2',
+          secondary: '#00BFFF',
+          accent: '#7F00FF',
           card: 'rgba(255, 255, 255, 0.05)',
+          border: 'rgba(138, 43, 226, 0.3)',
         }
       },
             fontFamily: {
