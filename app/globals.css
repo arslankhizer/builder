@@ -166,11 +166,11 @@ html {
   }
   
   .box-glow {
-    box-shadow: 0 0 40px rgba(138, 43, 226, 0.4);
+    box-shadow: 0 0 40px rgba(127, 0, 255, 0.4);
   }
-  
+
   .box-glow-dark {
-    box-shadow: 0 0 40px rgba(0, 191, 255, 0.4);
+    box-shadow: 0 0 40px rgba(138, 43, 226, 0.4);
   }
   
   /* Shimmer Effect */
