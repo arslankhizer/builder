@@ -136,7 +136,7 @@ export function Footer() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={inView ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.6, delay: 0.4 + index * 0.1 }}
-                  className={`p-3 glass dark:glass-dark rounded-lg text-light-text dark:text-dark-text ${social.color} transition-all duration-300 hover:scale-110`}
+                  className={`p-3 glass dark:glass-dark rounded-lg text-light-text dark:text-dark-text ${social.color} transition-all duration-300 hover:scale-110 border border-light-border dark:border-dark-border`}
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   aria-label={social.name}
