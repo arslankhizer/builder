@@ -117,7 +117,7 @@ export function Contact() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="space-y-8"
           >
-            <div className="glass dark:glass-dark rounded-2xl p-8 box-glow dark:box-glow-dark">
+            <div className="glass dark:glass-dark rounded-2xl p-8 box-glow dark:box-glow-dark border border-light-border dark:border-dark-border">
               <h3 className="text-2xl font-bold text-light-text dark:text-dark-text mb-6">
                 Send a Message
               </h3>
