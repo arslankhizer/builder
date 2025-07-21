@@ -94,7 +94,7 @@ export function Skills() {
                 initial={{ opacity: 0, x: -50 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
                 transition={{ duration: 0.8, delay: index * 0.1 }}
-                className="glass dark:glass-dark rounded-2xl p-8 hover:scale-[1.02] transition-all duration-300 box-glow dark:box-glow-dark"
+                className="glass dark:glass-dark rounded-2xl p-8 hover:scale-[1.02] transition-all duration-300 box-glow dark:box-glow-dark border border-light-border dark:border-dark-border"
               >
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-xl font-bold text-light-text dark:text-dark-text">
