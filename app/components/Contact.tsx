@@ -190,7 +190,7 @@ export function Contact() {
                   className={`w-full flex items-center justify-center space-x-3 px-8 py-4 rounded-lg font-semibold transition-all duration-300 ${
                     isSubmitted
                       ? 'bg-green-500 text-white'
-                      : 'bg-gradient-to-r from-light-primary to-light-accent dark:from-dark-primary dark:to-dark-accent text-white hover:scale-105'
+                      : 'cinematic-gradient dark:cinematic-gradient-dark text-white hover:scale-105'
                   } disabled:opacity-70 disabled:cursor-not-allowed`}
                   whileHover={!isSubmitting && !isSubmitted ? { scale: 1.02 } : {}}
                   whileTap={!isSubmitting && !isSubmitted ? { scale: 0.98 } : {}}
